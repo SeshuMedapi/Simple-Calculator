@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Calculator</title>
+        <link rel="stylesheet" href="test.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+        <table border="1" class="table">
+            <caption><h1>Simple Calculator</h1></caption>
+        <div class="buttons">
+            <tr>
+                <td align="center" colspan="2"><input class="txtb" type="text" id="result" ></td>
+                <td align="center"><button class="btn4" type="button" onclick="ac()">AC</button></td>
+                <td align="center"><button class="btn3" type="button" onclick="show('%')">%</button></td>
+            </tr>
+            
+            <tr>
+                <td align="center"><button class="btn1" type="button" onclick="show('7')">7</button></td>
+                <td align="center"><button class="btn1" type="button" onclick="show('8')">8</button></td>
+                <td align="center"><button class="btn1" type="button" onclick="show('9')">9</button></td>
+                <td align="center"><button class="btn3" type="button" onclick="show('/')">/</button></td>
+            </tr>
+
+            <tr>
+                <td align="center"><button class="btn1" type="button" onclick="show('4')">4</button></td>
+                <td align="center"><button class="btn1" type="button" onclick="show('5')">5</button></td>
+                <td align="center"><button class="btn1" type="button" onclick="show('6')">6</button></td>
+                <td align="center"><button class="btn3" type="button" onclick="show('*')">*</button></td>
+            </tr>
+
+            <tr>
+                <td align="center"><button class="btn1" type="button" onclick="show('1')">1</button></td>
+                <td align="center"><button class="btn1" type="button" onclick="show('2')">2</button></td>
+                <td align="center"><button class="btn1" type="button" onclick="show('3')">3</button></td>
+                <td align="center"><button class="btn3" type="button" onclick="show('-')">-</button></td>
+            </tr>
+
+            <tr>
+                <td align="center"><button class="btn1" type="button" onclick="show('0')">0</button></td>
+                <td align="center"><button class="btn1" type="button" onclick="show('.')">.</button></td>
+                <td align="center"><button class="btn3" type="button" onclick="show('+')">+</button></td>
+                <td align="center"><button class="btn5" type="button" onclick="cal()">=</button></td>
+            </tr>
+        </div>
+        </table>
+
+        <script src="test.js" ></script>
+    </body>
+
+</html>
